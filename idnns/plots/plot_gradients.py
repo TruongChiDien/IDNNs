@@ -1,12 +1,12 @@
 'Calculate and plot the gradients (the mean and std of the mini-batch gradients) of the trained network'
 import tkinter
 import matplotlib
-# for i in range(50):
-#     try:
-#         matplotlib.use("TkAgg")
-#         break
-#     except:
-#         print(i)
+for i in range(50):
+    try:
+        matplotlib.use("TkAgg")
+        break
+    except:
+        print(i)
 import numpy as np
 import idnns.plots.utils as plt_ut
 import matplotlib.pyplot as plt

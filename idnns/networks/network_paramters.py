@@ -92,7 +92,7 @@ def get_default_parser(num_of_samples=None):
 	                    help='if we want to save the gradients in the network')
 
 	parser.add_argument('-run_in_parallel',
-	                    '-par', dest="run_in_parallel", type=str2bool, nargs='?', const=False, default=True,
+	                    '-par', dest="run_in_parallel", type=str2bool, nargs='?', const=False, default=False,
 	                    help='If we want to run all the networks in parallel mode')
 
 	parser.add_argument('-num_of_bins',

@@ -1,12 +1,12 @@
 """Plot the networks in the information plane"""
 import tkinter
 import matplotlib
-# for i in range(50):
-#     try:
-#         matplotlib.use("TkAgg")
-#         break
-#     except:
-#         print(i)
+for i in range(50):
+    try:
+        matplotlib.use("TkAgg")
+        break
+    except:
+        print(i)
 import numpy as np
 import _pickle as cPickle
 # import cPickle

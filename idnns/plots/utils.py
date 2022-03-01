@@ -1,11 +1,11 @@
 import tkinter
 import matplotlib
-# for i in range(50):
-#     try:
-#         matplotlib.use("TkAgg")
-#         break
-#     except:
-#         print(i)
+for i in range(50):
+    try:
+        matplotlib.use("TkAgg")
+        break
+    except:
+        print(i)
 import scipy.io as sio
 
 import matplotlib.pyplot as plt
